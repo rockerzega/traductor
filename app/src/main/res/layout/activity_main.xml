@@ -13,22 +13,19 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:hint="Enter your name"
+        android:hint="Ingrese el texto a traducir"
         android:padding="4dp"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
-
-    <!--button to detect language of the input text-->
     <Button
         android:id="@+id/idBtnDetectLanguage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/idTVDetectedLanguageCode"
         android:layout_centerInParent="true"
-        android:text="Detect language" />
+        android:text="Traducir" />
 
-    <!--text view to display the code of entered text-->
     <TextView
         android:id="@+id/idTVDetectedLanguageCode"
         android:layout_width="match_parent"
@@ -37,7 +34,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
         android:gravity="center_horizontal"
-        android:text="Language code"
+        android:text="Texto traducido"
         android:textAlignment="center"
         android:textSize="20sp" />
 

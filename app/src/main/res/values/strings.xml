@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GFG App</string>
+    <string name="app_name">Traductor</string>
     
     <string name="assistant_api_key">ny6iYczeDNygj9m-0_YfIrC4oxgZ3alB2f0P5KsAunOo</string>
     <string name="assistant_url">https://gateway-lon.watsonplatform.net/assistant/api</string>

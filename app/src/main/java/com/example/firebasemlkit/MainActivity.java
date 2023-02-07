@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 //handling error method and displaying a toast message.
-                Toast.makeText(MainActivity.this, "Fail to detect language : \n" + e, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "El proceso de traduccion ha fallado : \n" + e, Toast.LENGTH_SHORT).show();
             }
         });
     }
